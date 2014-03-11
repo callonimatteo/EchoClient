@@ -42,8 +42,9 @@ public class EchoClient {
             // end loop
             if (userInput.equals("fine"))
                 break;
-
-	    System.out.println("echo: " + in.readLine());
+            
+            if (userInput.equals("maiuscole on")==false && userInput.equals("maiuscole off")==false){
+	    System.out.println("echo: " + in.readLine());}
 	   }
 
 	out.close();
